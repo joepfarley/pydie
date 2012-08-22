@@ -76,6 +76,7 @@ def DROPINIT(x):
 	del x[name]
 
 def setINIT(x,y={}): #x=number of combatants
+	y={}
 	session = y
 	for i in range(0,x):
 		addINIT(session)
