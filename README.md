@@ -1,4 +1,3 @@
-def basic_help():
 	x= """
 	Dice Rolling Terminal Application
 	Type roll(x,y)+z
@@ -18,7 +17,6 @@ def basic_help():
 	Copyright 2011 Joe Farley
 	"""
 
-def help():
 	basic_help()
 	x="""
 	this program should be launched using -i argument
