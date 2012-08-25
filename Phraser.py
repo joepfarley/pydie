@@ -4,5 +4,6 @@ while True:
 	try:
 		x=input(">>> ")
 		print x
-	except SyntaxError:
-		print "stop fuckin' around"
+	except SyntaxError:print "stop fuckin' around"
+	except NameError:print "stop fuckin' around"
+	except ZeroDivisionError:print "Can't divide by zero dummy"
