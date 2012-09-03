@@ -60,7 +60,7 @@ def array(x=6,y=1,z=150):
 		array=[]
 		for count in range(0,x): array.append(ability())
 	array.sort()
-	return array,sum(array)
+	return array
 
 #below is the set of initiative functions
 
