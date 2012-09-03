@@ -106,6 +106,7 @@ def init(z,x=0,y=0):
 
 
 
+
 def basic_help():
 	x= """ 
 	Dice Rolling Terminal Application
